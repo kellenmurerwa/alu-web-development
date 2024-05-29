@@ -203,7 +203,7 @@ background-color: #C271FF;
     font-weight:600;
     font-size:14px;
     line-height:27px;
-    align-self:right;
+    /*align-self:right;*/
 }
 .membership> div{
     display: flex;
