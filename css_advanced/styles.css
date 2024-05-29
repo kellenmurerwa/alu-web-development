@@ -1,0 +1,267 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: absolute;
+    left: -0.025%;
+    right: -0.025%;
+    top: 0;
+    bottom: -26.48%;
+height: 100vh;
+    background-image: url("./images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    font-size: 13px;
+    font-weight: 700;
+}
+main{
+    position: relative;
+}
+.banner{
+    z-index: 50;
+    background: radial-gradient(
+            85.9% 55.9% at 50% 14.1%,
+            rgba(41, 48, 61, 0.0001) 0%,
+            #071629 100%
+    );
+    }
+.Oreste{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner h1{
+    color: white;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+}
+.smiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -5%;
+
+}
+button{
+    background-color: #C271FF;
+    font-weight: 600;
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+    font-family:"Source Sans Pro", sans-serif;
+    line-height:17px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.5);
+    border: none;
+    align-self: center;
+    margin-top: 20px;
+}
+.smiles p{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+.activeColor{
+    color: #c271ff;
+    font-weight: 700;
+}
+.banner h2{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: 300;
+
+}
+.photo-collection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.photo-collection div{
+    padding-left:5% ;
+    color: white;
+    padding-bottom: 20px;
+}
+.photo-collection div img{
+    border-radius: 100%;
+}
+.quotedBlock {
+background-color: #C271FF;
+    padding-left:259px ;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.quotedBlock > div{
+    display: flex;
+    flex-direction: row;
+   }
+.quotedBlock p{
+    font-weight: 400;
+    color: white;
+    padding-left: 40px;
+    font-size: 14px;
+    font-family:"Source Sans Pro", sans-serif;
+    }
+.videoTutorials h1{
+    color: #071629;
+    padding: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+    font-family:"Source Sans Pro", sans-serif;
+    line-height:40px;
+
+}
+.videoTutorials span{
+    font-weight: 700;
+   }
+
+.videoTutorials > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 20px;
+    }
+.videoTutorials>div> div{
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+
+}
+.videoTutorials h2{
+    color: #071629;
+    /*padding: 20px;*/
+    font-weight: 700;
+    font-size: 16px;
+    font-family:"Source Sans Pro", sans-serif;
+    /*line-height:20px;*/
+    }
+.ubudasa >div{
+    display: flex;
+    flex-direction: row;
+}
+.ubudasa >p{
+    margin-top: -5px;
+    display: block;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    }
+.membership> div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    }
+.membership >div div{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.membership p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.membership h2{
+    font-weight: 600;
+    font-size: 18px;
+}
+.membership img{
+    height: 35px;
+    width: 43px;
+}
+.membership {
+    background-color: #071629;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+.membership h1{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 20px;
+
+}
+
+.membership span{
+    font-weight: bold;
+}
+.membership button{
+    margin: 10px auto;
+
+}
+.faq >div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 30px;
+}
+.faq >div div{
+    width: 350px;
+    margin-bottom: 50px;
+}
+.faq p{
+    color:#07162980;
+}
+.faq h1{
+    color: #071629;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px;
+}
+.faq h2{
+    color: #071629;
+    font-weight: 700;
+    font-size:16px;
+    Line-height:20px;
+    }
+footer{
+    background-color: #071629;
+    padding: 0 60px;
+    }
+.feet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+.foot p{
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color:#FFFFFF;
+    padding-bottom: 30px;
+}
+.space img{
+    margin: 15px;
+}
