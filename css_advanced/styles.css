@@ -121,6 +121,12 @@ background-color: #C271FF;
     font-size: 14px;
     font-family:"Source Sans Pro", sans-serif;
     }
+.videoTutorials{
+    /*width:1228px;*/
+    /*height:450px;*/
+    padding-top:12px;
+    padding-left:106px;
+}
 .videoTutorials h1{
     color: #071629;
     padding: 20px;
@@ -160,6 +166,18 @@ background-color: #C271FF;
     display: flex;
     flex-direction: row;
 }
+.ubudasa >div h3{
+    margin-left: 15px;
+    color: #C271FF;
+    font-family: source Sans Pro, sans-serif;
+    font-weight:600;
+    font-size:14px;
+    line-height: 27px;
+}
+.ubudasa >div img{
+    border-radius: 100%;
+
+}
 .ubudasa >p{
     margin-top: -5px;
     display: block;
@@ -167,7 +185,26 @@ background-color: #C271FF;
 .stars{
     display: flex;
     flex-direction: row;
+    Width:107px;
+    Height:15px;
+    margin-top: 20px;
+    margin-left:2px;
     }
+.minutes p{
+    display: flex;
+    flex-direction: row;
+    /*width: 34px;*/
+    /*height:27px;*/
+    margin-top:20px;
+    padding-left:50px;
+    color: #C271FF;
+
+    Font-family: "Source Sans Pro", sans-serif;
+    font-weight:600;
+    font-size:14px;
+    line-height:27px;
+    align-self:right;
+}
 .membership> div{
     display: flex;
     flex-direction: row;
